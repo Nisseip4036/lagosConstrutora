@@ -1,0 +1,40 @@
+/* CSS - GERAL */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.erro404{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+}
+.erro404 h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    color: #f8f9fa;
+}
+.erro404 h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #ced4d4;
+    margin-top: 20px;
+}
+.erro404 a{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+.erro404 a:hover{
+    background-color: #f8f9fa;
+    color: #212529;
+}

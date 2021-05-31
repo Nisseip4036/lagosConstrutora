@@ -1,0 +1,37 @@
+header{
+    height: 100px;
+    background-color: #212529;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.header_left .logo{
+    width: 80px;
+    height: 80px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+}
+.header_right nav ul{
+    display: flex;
+}
+.header_right nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.header_right nav ul li:last-child{
+    margin-right: 0px;
+}
+.header_right nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f8f9fa;
+    transition: all ease 0.5s;
+}
+.header_right nav ul li a:hover{
+    color: #ced4d4;
+}

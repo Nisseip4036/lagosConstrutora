@@ -1,0 +1,23 @@
+/* CSS - GERAL */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    min-height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
